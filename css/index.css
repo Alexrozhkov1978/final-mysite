@@ -78,8 +78,7 @@ header .nav-link:hover {
     text-decoration: underline;
 }
 
-
-main .about-txt-Lumbarda {
+main .about-txt-Lumbarda, .about-txt-beaches {
     text-indent: 2rem;
     font-family: 'Mali', cursive;
     text-align: justify ;
@@ -91,42 +90,23 @@ main .about-txt-Lumbarda {
     outline: none;
 }
 
-main .about-txt-Lumbarda {
+main .about-txt-Lumbarda, .about-villas-txt, .all-data-about-beaches, .about-txt-beaches {
     display: grid;
 }
-
-
-/*-- Modal --*/
-
- .about-txt-Lumbarda {
-    text-indent: 2rem;
-    font-family: 'Mali', cursive;
-    text-align: justify ;
-    font-size: 0.75rem;
-    width: auto;
-    margin: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    outline: none;
-}
-
-
- #moreAboutLumbardaLongTitle {
-    font-family: 'Mali', cursive;
-    text-align: center;
-    margin: 20px auto;
-    font-size: 1.2rem;
-    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;}
-
-
-
-/*-- Modal --*/
-
 
 main .btn-primary {
     color: #fff;
     background-color: #7692a9f5;
-    border-color: #b52656;
+    border-color: hsl(200, 48%, 31%);
+}
+
+main .buttonIntxtBeaches{
+    position: relative;
+    right: 2rem;
+}
+
+main #btn-beaches {
+    width:100%;
 }
 
 main  .btn {
@@ -174,25 +154,6 @@ main   .about-villas-txt {
     list-style-type: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 575px) {
 
 header .header-nav-grid {
@@ -225,5 +186,29 @@ header .nav-link:hover {
 
 }
 
-    
-    
+
+/*-- Modal --*/
+
+ .about-txt-Lumbarda, .about-villas-txt{
+    text-indent: 2rem;
+    font-family: 'Mali', cursive;
+    text-align: justify ;
+    font-size: 0.75rem;
+    width: auto;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+}
+
+
+#moreAboutLumbardaTitle, #moreAboutVillaCebaloTitle, #moreAboutVillaSocolTitle{
+    font-family: 'Mali', cursive;
+    text-align: left;
+    font-size: 1.2rem;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+    margin: 25px 25px 25px 25px;
+}
+
+
+/*-- Modal --*/
